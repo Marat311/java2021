@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Array1 {
     public static void main(String[] args) {
 
+
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
         int[] nums = new int[size];

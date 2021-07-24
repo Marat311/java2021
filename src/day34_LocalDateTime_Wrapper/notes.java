@@ -74,7 +74,11 @@ Warepper class:
 		2. valueOf methods:converting string to wrapper class
 
 
+int 123 =  Integer 123; --> unboxing
+Integer 123 = int123 ==> auto
 
+
+primitive data type/wrapper class
 	"123" + 1 ==> 1231
 	123  + 1 ==> 124
 

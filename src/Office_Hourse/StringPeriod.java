@@ -10,7 +10,7 @@ public class StringPeriod {
     		For Example is str ="abcababcababcab"  			   output should be abcab
     					   str ="abcdefabcdef"     			   output should be abcdef
     					   str ="abcdefabcdef abcdefabcdef"     output should be abcdefabcdef
-    					   str ="abcdefxabcdef"				   output should be "There is no epetitive substring"
+    					   str ="abcdefxabcdef"				   output should be "There is no repetitive substring"
                                 abcabc      abc
          */
 
@@ -35,13 +35,13 @@ public class StringPeriod {
 
         for (int i = 0; i <word.length()/2 ; i++) {
             temp+=word.charAt(i);
-            System.out.println(temp);
-            String[] split = word.split(temp);
-            if(split.length==0 && longestOne.length()<temp.length()){
+          //  System.out.println(temp);
+            String[] splitWord = word.split(temp);
+            if(splitWord.length==0 && longestOne.length()<temp.length()){
                 longestOne=temp;
             }
         }
-        System.out.println("longest"+longestOne);
+        System.out.println("longest: "+longestOne);
 
 
     }

@@ -84,7 +84,7 @@ public class Unit1Task {
 							4-	Question :  How much would you like to decrease the speed?(as int)
 								Answer   :				10
 								Info	 : Your speed is decreased! 50
-								push to git hub_______
+
          */
         Scanner input = new Scanner(System.in);
         System.out.println("Do you want to start car ?");

@@ -29,7 +29,7 @@ public class WrapperClassIntro {
 
         byte c1 = 10;
         Byte c2 = c1;//wrapper class only accepts it's own primitive
-        Short c3 = (short)c1;
+        Short c3 = (short)c1; //autoboxing
         Integer c4 = (int)c1;//we need reassign byte to int, because wrapper class accept only it's own primitives
 
 

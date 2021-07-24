@@ -5,6 +5,7 @@ package day15_String;
 public class StringIntro {
     public static void main(String[] args) {
 
+
         String word = "apples";
         int mid2 = word.length()/2;  //
         int mid1 = mid2-1;   //
