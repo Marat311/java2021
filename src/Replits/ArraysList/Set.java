@@ -1,8 +1,13 @@
 package Replits.ArraysList;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Set {
     /*
-    The .set() ArrayList method will set the value of a particular index to the given value.
+    The .set() ArrayList method will set the value of a particular index
+    to the given value.
 
 Given the following ArrayList...
 
@@ -20,7 +25,8 @@ nums.add(1);
 nums.add(-1);
 (the values of this arraylist are 4,2,8,1,-1)
 
-The following code will set the element at the 2nd index to be 99 and the element at the 0th index to be 100.
+The following code will set the element at the 2nd index to be 99
+and the element at the 0th index to be 100.
 
 nums.set(2,99);
 nums.set(0,100);
@@ -32,4 +38,27 @@ arraylistvariable.set(index to set, new value);
 arraylistvariable.set(index to set, new value);
 Finish the code so the ArrayList will have 200 in index 1 and 50 in index 3
      */
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int size = in.nextInt();
+        String target = in.next();
+        ArrayList<String> list = new ArrayList<>();
+        for(int i=0; i < size; i++) {
+            list.add(in.next());
+        }
+
+        System.out.println(removeAll(list, target));
+
+    }
+
+    public static ArrayList<String> removeAll(ArrayList<String> wordList, String targetWord){
+
+       wordList.removeAll(Arrays.asList(targetWord));
+
+        return wordList;
+    }
+
+
+
+
 }
