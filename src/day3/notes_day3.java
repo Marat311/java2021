@@ -28,7 +28,7 @@ Warmup tasks:
                         your name
                         your EmployeeId
                         your JobTitle
-                        your Salary
+                        your salaryCalc
 
     3. Go to Canvas -> B23 Java Programming -> Modules -> java Programming Lab ->
     			1. RplitAccount Registration: register a Repl.it account
@@ -148,7 +148,7 @@ Comments: giving notes
     hourlyRate
             weeklyHours
 
-    salary = hourlyRate * weeklyHours * 52;
+    salaryCalc = hourlyRate * weeklyHours * 52;
 
 
 

@@ -13,7 +13,7 @@ public class TaxCalculations {
         double totalFederalTax = salary*federalTax;
         double salaryAfterTax = salary-totalFederalTax-totalStateTax;
 
-        System.out.println("your salary is "+salary);
+        System.out.println("your salaryCalc is "+salary);
 
         //You need to pay totalStateTax to StateTax
         System.out.println("You need to pay "+totalStateTax+ " to state tax.");
@@ -21,8 +21,8 @@ public class TaxCalculations {
         //You need to pay totalFederalTax to federalTax
         System.out.println("You need to pay "+totalFederalTax+ " to federal tax.");
 
-        //Your take home salary is salary afterTax
-        System.out.println("Salary after tax is "+salaryAfterTax);
+        //Your take home salaryCalc is salaryCalc afterTax
+        System.out.println("salaryCalc after tax is "+salaryAfterTax);
 
     }
 }

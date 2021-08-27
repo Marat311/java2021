@@ -8,10 +8,10 @@ Topics: Switch Statement
 package name: day11_Switch
 
 Warmmup tasks:
-	1. Given two values: yearly salary and credit score determine if you can get a loan.
+	1. Given two values: yearly salaryCalc and credit score determine if you can get a loan.
 
 			    To be approve for the loan, print: "Loan Approved":
-				        Salary: above 60,000
+				        salaryCalc: above 60,000
 				        Credit Score: above 650
 			    	Otherwise print: "Loan Denied"
 

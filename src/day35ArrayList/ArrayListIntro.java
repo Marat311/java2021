@@ -15,7 +15,8 @@ public class ArrayListIntro {
         ArrayList<Integer> arrayList = new ArrayList<>(); //size is 0
         System.out.println(arrayList);
         arrayList.add(10); //autoboxing,0
-        arrayList.add(0,20); //move  10 element and 0 index will be 20
+        arrayList.add(arrayList.size()-1); //move  10 element and 0 index will be 20
+        System.out.println(arrayList);
         arrayList.add(30);//2
         arrayList.add(40);//3
         arrayList.add(15);

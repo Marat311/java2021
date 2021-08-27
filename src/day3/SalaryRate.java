@@ -11,29 +11,29 @@ public  class SalaryRate {
         byte weeklyHours = 40;
         byte WeeksInAYear = 48;
 
-        //salary = hourlyRte * weeklyHours * 52
-        double salary = HourlyRate * weeklyHours *WeeksInAYear; //total salary before tax
+        //salaryCalc = hourlyRte * weeklyHours * 52
+        double salary = HourlyRate * weeklyHours *WeeksInAYear; //total salaryCalc before tax
 
-        //salaryTax = salary *stateTaxRate
+        //salaryTax = salaryCalc *stateTaxRate
         double stateTax = salary*stateTaxRate;
 
-        //federalTax = salary * federalTaxRate
+        //federalTax = salaryCalc * federalTaxRate
         double federalTax = salary* federalTaxRate;
 
         //totalTax = stateTax +federalTax
         double titalTax = stateTax+federalTax;
-        //salaryAfterTax = salary -stateTax - federalTax ;
+        //salaryAfterTax = salaryCalc -stateTax - federalTax ;
         double salaryAfterTax = salary - (stateTax + federalTax);
 
         System.out.println("9"+3); //93 concatenation
         System.out.println(9+3); // 12 addition
 
-        System.out.println("Your salary is: $"+ salary+"$");
-        System.out.println("State tax is: "+stateTax);
-        System.out.println("Federal Tax: "+federalTax);
-        System.out.println("Total Tax: "+(federalTax +stateTax));
+        System.out.println("Your salaryCalc is: $"+ salary+"$"); //163200
+        System.out.println("State tax is: "+stateTax); //6528
+        System.out.println("Federal Tax: "+federalTax); //35904
+        System.out.println("Total Tax: "+(federalTax +stateTax)); //42432
 
-        System.out.println("Salary after Tax is: "+salaryAfterTax);
+        System.out.println("salaryCalc after Tax is: "+salaryAfterTax); //120768
 
 
 

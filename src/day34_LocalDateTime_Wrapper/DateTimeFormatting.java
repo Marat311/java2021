@@ -25,12 +25,12 @@ public class DateTimeFormatting {
 
         DateTimeFormatter TF = DateTimeFormatter.ofPattern("hh:mm");  // 12:09
         DateTimeFormatter TF1 = DateTimeFormatter.ofPattern("hh:mm:ss"); //12:11:40
-        DateTimeFormatter TF2 = DateTimeFormatter.ofPattern("hh:mm a"); //05:45 PM  (add AM or PM)
+        DateTimeFormatter TF2 = DateTimeFormatter.ofPattern("h:mm a"); //05:45 PM  (add AM or PM)
         LocalTime currentTime = LocalTime.now();  // 12:09:57.613
 
         System.out.println(currentTime);
         System.out.println(currentTime.format(TF));
-        System.out.println(currentTime.format(TF1));
+        System.out.println(currentTime.format(TF2));
 
 
         LocalTime time1 = LocalTime.of(17,45);

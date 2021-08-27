@@ -30,11 +30,11 @@ public class ShortHandOperators {
         double salary = 130000;
         // *= multiplication
         salary*=0.8;
-        System.out.println("salary = $" + salary);
+        System.out.println("salaryCalc = $" + salary);
 
         //0.65
         salary+=0.65;
-        System.out.println("salary = " + salary);
+        System.out.println("salaryCalc = " + salary);
 
         System.out.println("------------");
         // /= division

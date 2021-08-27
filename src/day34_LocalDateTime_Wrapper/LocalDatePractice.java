@@ -8,10 +8,10 @@ public class LocalDatePractice {
     public static void main(String[] args) {
 
 
-        String[] students = {"Ahmet", "Andrei", "Ivan", "Igor", "Kaddir"};
+        String[] students = {"Ahmet", "Andrei", "Ivan", "Igor", "Kadir"};
         LocalDate[] DoB= {LocalDate.of(1981, 10, 10),
                 LocalDate.of(1981, 10, 12),
-                LocalDate.of(1981, 11, 10),
+                LocalDate.of(1981, 10, 10),
                 LocalDate.of(1988, 5, 15),
                 LocalDate.of(1990, 10, 10), };
 

@@ -69,7 +69,7 @@ non-primitives:
 Task:
 	1. create a class named EmployeeInfo
                 1. declare the following variables:
-                    name, gender, age, companyName, jobTitle, isFullTime, isMarried, salary
+                    name, gender, age, companyName, jobTitle, isFullTime, isMarried, salaryCalc
 
                 2. full info of the employee
 
