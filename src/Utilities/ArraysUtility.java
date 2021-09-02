@@ -245,7 +245,7 @@ public class ArraysUtility {
     //2. create a function that can return the minimum number from an array of integer
     // min( new int[]{10,20,30} ) ==> 10
 
-   // return array that can add an Inteeger  after the  last index of an integer array
+   // return array that can add an Integer  after the  last index of an integer array
 
     public static int [] addElement1(int [] arr, int num){ //arr- [1,2,3], num-4
         int [] array = new int[arr.length+1];

@@ -4,6 +4,7 @@ public class Circle {
     private double radius, diameter;
 
     private static double PI = 3.14;
+   int count1;
 
     public double getRadius() {
         return radius;
@@ -56,5 +57,10 @@ public class Circle {
                 "radius=" + radius +
                 ", diameter=" + diameter +
                 '}';
+    }
+
+    public static void main(String[] args) {
+
+      //  System.out.println(Circle.count1);
     }
 }

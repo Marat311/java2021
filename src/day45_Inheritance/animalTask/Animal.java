@@ -1,6 +1,6 @@
 package day45_Inheritance.animalTask;
 
-public  class Animal {
+public class  Animal {
     public String name;
     public String breed;
     public char gender;
